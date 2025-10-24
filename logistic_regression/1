@@ -1,3 +1,3 @@
-[正则化强度与权重范数关系贴图](https://github.com/lilynasari/machine_learning_basics/blob/765c3986a8dfed08f5d6c122f5c3aa4114922a79/images/regularization%EF%BC%881%EF%BC%89.png)
+![正则化强度与权重范数关系贴图](https://github.com/lilynasari/machine_learning_basics/blob/765c3986a8dfed08f5d6c122f5c3aa4114922a79/images/regularization%EF%BC%881%EF%BC%89.png)
 
 总结：随着正则化强度增大，权重范数被施加惩罚自由度受限，范数单调下降，体现了正则化强度上升权重范数下降这一趋势
