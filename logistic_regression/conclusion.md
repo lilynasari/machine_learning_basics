@@ -1,4 +1,4 @@
-
+[正则化与权重范数关系图](https://github.com/lilynasari/machine_learning_basics/blob/6548a708748b97b2138e0c2dcf25d18f81072428/images/regularization%EF%BC%883%EF%BC%89.png)  
 总结：权重范数曲线单调上升体现了正则化越弱，权重约束越松，范数越大
 
 总结：  
