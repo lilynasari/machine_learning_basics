@@ -62,7 +62,7 @@ for noise_prob in noise_probs:
     weight_norm = np.linalg.norm(lr_noisy.coef_[0])
     weight_norms.append(weight_norm)
 
-    # 计算交叉熵损失（使用原始标签评估！）
+    # 计算交叉熵损失
     y_train_proba = lr_noisy.predict_proba(X_train)[:, 1]
     y_test_proba = lr_noisy.predict_proba(X_test)[:, 1]
 
@@ -177,4 +177,5 @@ print(
     f"{'训练准确率':<20} {lr_original.score(X_train, y_train_original):.4f}    {train_accuracies[best_idx]:.4f}    {train_accuracies[best_idx] - lr_original.score(X_train, y_train_original):.4f}")
 print(
     f"{'测试准确率':<20} {lr_original.score(X_test, y_test):.4f}    {test_accuracies[best_idx]:.4f}    {test_accuracies[best_idx] - lr_original.score(X_test, y_test):.4f}")
+
 
